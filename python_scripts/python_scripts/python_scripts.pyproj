@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>cac7ac03-ac46-4676-a6bd-66e282cbffb2</ProjectGuid>
+    <ProjectGuid>bf198e68-7b5c-4a92-bbda-716a9f3a629c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>hello_Python.py</StartupFile>
+    <StartupFile>python_scripts.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>hello_Python</Name>
-    <RootNamespace>hello_Python</RootNamespace>
-    <InterpreterId>Global|VisualStudio|try_Python</InterpreterId>
+    <Name>python_scripts</Name>
+    <RootNamespace>python_scripts</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,11 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="hello_Python.py" />
-    <Compile Include="Python_Game.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|VisualStudio|try_Python" />
+    <Compile Include="python_scripts.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
